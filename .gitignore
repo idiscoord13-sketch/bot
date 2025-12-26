@@ -1,21 +1,21 @@
-﻿
-# فایل‌های حجیم و زائد
-
+﻿# کتابخانه‌ها و پکیج‌ها
 vendor/
-
 node_modules/
 
-files/
+# فایل‌های حساس (خیلی مهم)
+config.php
+.env
 
-temp/
-
-*.zip
-
-*.rar
-
+# فایل‌های داده و لاگ
+*.log
 error_log*
+*.txt
+*.json
+!composer.json
+!words.json
 
-
-
-
-
+# فایل‌های سیستمی و فشرده
+.DS_Store
+.ftpquota
+*.zip
+*.rar
