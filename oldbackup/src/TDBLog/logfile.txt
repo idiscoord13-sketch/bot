@@ -1,0 +1,389 @@
+queryT: SELECT * FROM `users` WHERE `user_id` = 272516202
+get_row: SELECT * FROM `users` WHERE `user_id` = 272516202
+queryT: SELECT * FROM `server_meta` WHERE `server_id` = 7752958 AND `user_id` = 272516202 AND `meta_key` = 'friend'
+get_row: SELECT * FROM `server_meta` WHERE `server_id` = 7752958 AND `user_id` = 272516202 AND `meta_key` = 'friend'
+queryT: SELECT * FROM `role` WHERE `id` = 12
+get_row: SELECT * FROM `role` WHERE `id` = 12
+queryT: SELECT `name_id` FROM `user_name` WHERE `server_id` = 7752958 AND `user_id` = 1438522773 ORDER BY `id` DESC LIMIT 1
+get_var: SELECT `name_id` FROM `user_name` WHERE `server_id` = 7752958 AND `user_id` = 1438522773 ORDER BY `id` DESC LIMIT 1
+queryT: SELECT `name` FROM `names` WHERE `server_id` = 7752958 AND `user_id` = 1438522773 LIMIT 1
+get_var: SELECT `name` FROM `names` WHERE `server_id` = 7752958 AND `user_id` = 1438522773 LIMIT 1
+queryT: SELECT `server`.* FROM `server` INNER JOIN `user_game` ON `server`.`id` = `user_game`.`server_id` AND `user_game`.`user_id` = 1438522773 LIMIT 1
+get_row: SELECT `server`.* FROM `server` INNER JOIN `user_game` ON `server`.`id` = `user_game`.`server_id` AND `user_game`.`user_id` = 1438522773 LIMIT 1
+queryT: SELECT * FROM `user_game` WHERE `user_id` = 1438522773
+get_row: SELECT * FROM `user_game` WHERE `user_id` = 1438522773
+queryT: SELECT `role`.* FROM `server_role` INNER JOIN `role` ON `server_role`.server_id = 7752956 AND `server_role`.user_id = 236321668 AND `server_role`.role_id = `role`.id
+get_row: SELECT `role`.* FROM `server_role` INNER JOIN `role` ON `server_role`.server_id = 7752956 AND `server_role`.user_id = 236321668 AND `server_role`.role_id = `role`.id
+queryT: SELECT `meta_value` FROM `user_meta` WHERE `user_id` = 236321668 AND `meta_key` = 'gender'
+get_var: SELECT `meta_value` FROM `user_meta` WHERE `user_id` = 236321668 AND `meta_key` = 'gender'
+queryT: SELECT `role`.* FROM `server_role` INNER JOIN `role` ON `server_role`.server_id = 7752956 AND `server_role`.user_id = 236321668 AND `server_role`.role_id = `role`.id
+get_row: SELECT `role`.* FROM `server_role` INNER JOIN `role` ON `server_role`.server_id = 7752956 AND `server_role`.user_id = 236321668 AND `server_role`.role_id = `role`.id
+queryT: SELECT `server`.* FROM `server` INNER JOIN `user_game` ON `server`.`id` = `user_game`.`server_id` AND `user_game`.`user_id` = 236321668 LIMIT 1
+get_row: SELECT `server`.* FROM `server` INNER JOIN `user_game` ON `server`.`id` = `user_game`.`server_id` AND `user_game`.`user_id` = 236321668 LIMIT 1
+queryT: SELECT `meta_value` FROM `server_meta` WHERE `server_id` = 7752956 AND `user_id` = 68 AND `meta_key` = 'eye_shown'
+get_var: SELECT `meta_value` FROM `server_meta` WHERE `server_id` = 7752956 AND `user_id` = 68 AND `meta_key` = 'eye_shown'
+queryT: SELECT * FROM `users` WHERE `user_id` = 1438522773
+get_row: SELECT * FROM `users` WHERE `user_id` = 1438522773
+queryT: SELECT * FROM `server_meta` WHERE `server_id` = 7752958 AND `user_id` = 1438522773 AND `meta_key` = 'status'
+get_row: SELECT * FROM `server_meta` WHERE `server_id` = 7752958 AND `user_id` = 1438522773 AND `meta_key` = 'status'
+queryT: SELECT * FROM `server_meta` WHERE `server_id` = 7752958 AND `user_id` = 1438522773 AND `meta_key` = 'is-online'
+get_row: SELECT * FROM `server_meta` WHERE `server_id` = 7752958 AND `user_id` = 1438522773 AND `meta_key` = 'is-online'
+queryT: SELECT * FROM `user_game` WHERE `user_id` = 5482885533
+get_row: SELECT * FROM `user_game` WHERE `user_id` = 5482885533
+queryT: SELECT * FROM `user_game` WHERE `user_id` = 5482885533
+get_row: SELECT * FROM `user_game` WHERE `user_id` = 5482885533
+queryT: SELECT `meta_value` FROM `server_meta` WHERE `server_id` = 7752958 AND `user_id` = 0 AND `meta_key` = 'sleep'
+get_var: SELECT `meta_value` FROM `server_meta` WHERE `server_id` = 7752958 AND `user_id` = 0 AND `meta_key` = 'sleep'
+queryT: SELECT `server`.* FROM `server` INNER JOIN `user_game` ON `server`.`id` = `user_game`.`server_id` AND `user_game`.`user_id` = 5482885533 LIMIT 1
+get_row: SELECT `server`.* FROM `server` INNER JOIN `user_game` ON `server`.`id` = `user_game`.`server_id` AND `user_game`.`user_id` = 5482885533 LIMIT 1
+queryT: SELECT * FROM `user_game` WHERE `user_id` = 96198161
+get_row: SELECT * FROM `user_game` WHERE `user_id` = 96198161
+queryT: SELECT * FROM `user_game` WHERE `user_id` = 96198161
+get_row: SELECT * FROM `user_game` WHERE `user_id` = 96198161
+queryT: SELECT `meta_value` FROM `server_meta` WHERE `server_id` = 7752956 AND `user_id` = 6197556066 AND `meta_key` = 'status'
+get_var: SELECT `meta_value` FROM `server_meta` WHERE `server_id` = 7752956 AND `user_id` = 6197556066 AND `meta_key` = 'status'
+queryT: SELECT `name` FROM `names` WHERE `server_id` = 7752956 AND `user_id` = 6219957769 LIMIT 1
+get_var: SELECT `name` FROM `names` WHERE `server_id` = 7752956 AND `user_id` = 6219957769 LIMIT 1
+queryT: SELECT `role`.* FROM `server_role` INNER JOIN `role` ON `server_role`.server_id = 7752956 AND `server_role`.user_id = 6219957769 AND `server_role`.role_id = `role`.id
+get_row: SELECT `role`.* FROM `server_role` INNER JOIN `role` ON `server_role`.server_id = 7752956 AND `server_role`.user_id = 6219957769 AND `server_role`.role_id = `role`.id
+queryT: SELECT `meta_value` FROM `server_meta` WHERE `server_id` = 7752956 AND `user_id` = 6219957769 AND `meta_key` = 'status'
+get_var: SELECT `meta_value` FROM `server_meta` WHERE `server_id` = 7752956 AND `user_id` = 6219957769 AND `meta_key` = 'status'
+queryT: SELECT `meta_value` FROM `server_meta` WHERE `server_id` = 7752956 AND `user_id` = 6219957769 AND `meta_key` = 'status'
+get_var: SELECT `meta_value` FROM `server_meta` WHERE `server_id` = 7752956 AND `user_id` = 6219957769 AND `meta_key` = 'status'
+queryT: SELECT `role`.* FROM `server_role` INNER JOIN `role` ON `server_role`.server_id = 7752956 AND `server_role`.user_id = 7703056370 AND `server_role`.role_id = `role`.id
+get_row: SELECT `role`.* FROM `server_role` INNER JOIN `role` ON `server_role`.server_id = 7752956 AND `server_role`.user_id = 7703056370 AND `server_role`.role_id = `role`.id
+queryT: SELECT `meta_value` FROM `server_meta` WHERE `server_id` = 7752956 AND `user_id` = 7703056370 AND `meta_key` = 'status'
+get_var: SELECT `meta_value` FROM `server_meta` WHERE `server_id` = 7752956 AND `user_id` = 7703056370 AND `meta_key` = 'status'
+queryT: SELECT `meta_value` FROM `server_meta` WHERE `server_id` = 7752956 AND `user_id` = 7703056370 AND `meta_key` = 'status'
+get_var: SELECT `meta_value` FROM `server_meta` WHERE `server_id` = 7752956 AND `user_id` = 7703056370 AND `meta_key` = 'status'
+queryT: SELECT `name` FROM `names` WHERE `server_id` = 7752956 AND `user_id` = 998244457 LIMIT 1
+get_var: SELECT `name` FROM `names` WHERE `server_id` = 7752956 AND `user_id` = 998244457 LIMIT 1
+queryT: SELECT `role`.* FROM `server_role` INNER JOIN `role` ON `server_role`.server_id = 7752956 AND `server_role`.user_id = 998244457 AND `server_role`.role_id = `role`.id
+get_row: SELECT `role`.* FROM `server_role` INNER JOIN `role` ON `server_role`.server_id = 7752956 AND `server_role`.user_id = 998244457 AND `server_role`.role_id = `role`.id
+queryT: SELECT `meta_value` FROM `server_meta` WHERE `server_id` = 7752956 AND `user_id` = 998244457 AND `meta_key` = 'status'
+get_var: SELECT `meta_value` FROM `server_meta` WHERE `server_id` = 7752956 AND `user_id` = 998244457 AND `meta_key` = 'status'
+queryT: SELECT `meta_value` FROM `server_meta` WHERE `server_id` = 7752956 AND `user_id` = 998244457 AND `meta_key` = 'status'
+get_var: SELECT `meta_value` FROM `server_meta` WHERE `server_id` = 7752956 AND `user_id` = 998244457 AND `meta_key` = 'status'
+queryT: SELECT `name` FROM `names` WHERE `server_id` = 7752956 AND `user_id` = 5464420203 LIMIT 1
+get_var: SELECT `name` FROM `names` WHERE `server_id` = 7752956 AND `user_id` = 5464420203 LIMIT 1
+queryT: SELECT `role`.* FROM `server_role` INNER JOIN `role` ON `server_role`.server_id = 7752956 AND `server_role`.user_id = 5464420203 AND `server_role`.role_id = `role`.id
+get_row: SELECT `role`.* FROM `server_role` INNER JOIN `role` ON `server_role`.server_id = 7752956 AND `server_role`.user_id = 5464420203 AND `server_role`.role_id = `role`.id
+queryT: SELECT `meta_value` FROM `server_meta` WHERE `server_id` = 7752956 AND `user_id` = 5464420203 AND `meta_key` = 'status'
+get_var: SELECT `meta_value` FROM `server_meta` WHERE `server_id` = 7752956 AND `user_id` = 5464420203 AND `meta_key` = 'status'
+queryT: SELECT `meta_value` FROM `server_meta` WHERE `server_id` = 7752956 AND `user_id` = 5464420203 AND `meta_key` = 'status'
+get_var: SELECT `meta_value` FROM `server_meta` WHERE `server_id` = 7752956 AND `user_id` = 5464420203 AND `meta_key` = 'status'
+queryT: SELECT `name` FROM `names` WHERE `server_id` = 7752956 AND `user_id` = 2107434165 LIMIT 1
+get_var: SELECT `name` FROM `names` WHERE `server_id` = 7752956 AND `user_id` = 2107434165 LIMIT 1
+queryT: SELECT `role`.* FROM `server_role` INNER JOIN `role` ON `server_role`.server_id = 7752956 AND `server_role`.user_id = 2107434165 AND `server_role`.role_id = `role`.id
+get_row: SELECT `role`.* FROM `server_role` INNER JOIN `role` ON `server_role`.server_id = 7752956 AND `server_role`.user_id = 2107434165 AND `server_role`.role_id = `role`.id
+queryT: SELECT `meta_value` FROM `server_meta` WHERE `server_id` = 7752956 AND `user_id` = 2107434165 AND `meta_key` = 'status'
+get_var: SELECT `meta_value` FROM `server_meta` WHERE `server_id` = 7752956 AND `user_id` = 2107434165 AND `meta_key` = 'status'
+queryT: SELECT `meta_value` FROM `server_meta` WHERE `server_id` = 7752956 AND `user_id` = 2107434165 AND `meta_key` = 'status'
+get_var: SELECT `meta_value` FROM `server_meta` WHERE `server_id` = 7752956 AND `user_id` = 2107434165 AND `meta_key` = 'status'
+queryT: SELECT `role`.* FROM `server_role` INNER JOIN `role` ON `server_role`.server_id = 7752956 AND `server_role`.user_id = 92439626 AND `server_role`.role_id = `role`.id
+get_row: SELECT `role`.* FROM `server_role` INNER JOIN `role` ON `server_role`.server_id = 7752956 AND `server_role`.user_id = 92439626 AND `server_role`.role_id = `role`.id
+queryT: SELECT `meta_value` FROM `server_meta` WHERE `server_id` = 7752956 AND `user_id` = 92439626 AND `meta_key` = 'status'
+get_var: SELECT `meta_value` FROM `server_meta` WHERE `server_id` = 7752956 AND `user_id` = 92439626 AND `meta_key` = 'status'
+queryT: SELECT `meta_value` FROM `server_meta` WHERE `server_id` = 7752956 AND `user_id` = 92439626 AND `meta_key` = 'status'
+get_var: SELECT `meta_value` FROM `server_meta` WHERE `server_id` = 7752956 AND `user_id` = 92439626 AND `meta_key` = 'status'
+queryT: SELECT `name` FROM `names` WHERE `server_id` = 7752956 AND `user_id` = 236321668 LIMIT 1
+get_var: SELECT `name` FROM `names` WHERE `server_id` = 7752956 AND `user_id` = 236321668 LIMIT 1
+queryT: SELECT `role`.* FROM `server_role` INNER JOIN `role` ON `server_role`.server_id = 7752956 AND `server_role`.user_id = 236321668 AND `server_role`.role_id = `role`.id
+get_row: SELECT `role`.* FROM `server_role` INNER JOIN `role` ON `server_role`.server_id = 7752956 AND `server_role`.user_id = 236321668 AND `server_role`.role_id = `role`.id
+queryT: SELECT `meta_value` FROM `server_meta` WHERE `server_id` = 7752956 AND `user_id` = 236321668 AND `meta_key` = 'status'
+get_var: SELECT `meta_value` FROM `server_meta` WHERE `server_id` = 7752956 AND `user_id` = 236321668 AND `meta_key` = 'status'
+queryT: SELECT `meta_value` FROM `server_meta` WHERE `server_id` = 7752956 AND `user_id` = 236321668 AND `meta_key` = 'status'
+get_var: SELECT `meta_value` FROM `server_meta` WHERE `server_id` = 7752956 AND `user_id` = 236321668 AND `meta_key` = 'status'
+queryT: SELECT `name` FROM `names` WHERE `server_id` = 7752956 AND `user_id` = 7283632295 LIMIT 1
+get_var: SELECT `name` FROM `names` WHERE `server_id` = 7752956 AND `user_id` = 7283632295 LIMIT 1
+queryT: SELECT `role`.* FROM `server_role` INNER JOIN `role` ON `server_role`.server_id = 7752956 AND `server_role`.user_id = 7283632295 AND `server_role`.role_id = `role`.id
+get_row: SELECT `role`.* FROM `server_role` INNER JOIN `role` ON `server_role`.server_id = 7752956 AND `server_role`.user_id = 7283632295 AND `server_role`.role_id = `role`.id
+queryT: SELECT `meta_value` FROM `server_meta` WHERE `server_id` = 7752956 AND `user_id` = 7283632295 AND `meta_key` = 'status'
+get_var: SELECT `meta_value` FROM `server_meta` WHERE `server_id` = 7752956 AND `user_id` = 7283632295 AND `meta_key` = 'status'
+queryT: SELECT `meta_value` FROM `server_meta` WHERE `server_id` = 7752956 AND `user_id` = 7283632295 AND `meta_key` = 'status'
+get_var: SELECT `meta_value` FROM `server_meta` WHERE `server_id` = 7752956 AND `user_id` = 7283632295 AND `meta_key` = 'status'
+queryT: SELECT `name` FROM `names` WHERE `server_id` = 7752956 AND `user_id` = 7050075097 LIMIT 1
+get_var: SELECT `name` FROM `names` WHERE `server_id` = 7752956 AND `user_id` = 7050075097 LIMIT 1
+queryT: SELECT `role`.* FROM `server_role` INNER JOIN `role` ON `server_role`.server_id = 7752956 AND `server_role`.user_id = 7050075097 AND `server_role`.role_id = `role`.id
+get_row: SELECT `role`.* FROM `server_role` INNER JOIN `role` ON `server_role`.server_id = 7752956 AND `server_role`.user_id = 7050075097 AND `server_role`.role_id = `role`.id
+queryT: SELECT `meta_value` FROM `server_meta` WHERE `server_id` = 7752956 AND `user_id` = 7050075097 AND `meta_key` = 'status'
+get_var: SELECT `meta_value` FROM `server_meta` WHERE `server_id` = 7752956 AND `user_id` = 7050075097 AND `meta_key` = 'status'
+queryT: SELECT `meta_value` FROM `server_meta` WHERE `server_id` = 7752956 AND `user_id` = 7050075097 AND `meta_key` = 'status'
+get_var: SELECT `meta_value` FROM `server_meta` WHERE `server_id` = 7752956 AND `user_id` = 7050075097 AND `meta_key` = 'status'
+queryT: SELECT `name` FROM `names` WHERE `server_id` = 7752956 AND `user_id` = 7298183626 LIMIT 1
+get_var: SELECT `name` FROM `names` WHERE `server_id` = 7752956 AND `user_id` = 7298183626 LIMIT 1
+queryT: SELECT `role`.* FROM `server_role` INNER JOIN `role` ON `server_role`.server_id = 7752956 AND `server_role`.user_id = 7298183626 AND `server_role`.role_id = `role`.id
+get_row: SELECT `role`.* FROM `server_role` INNER JOIN `role` ON `server_role`.server_id = 7752956 AND `server_role`.user_id = 7298183626 AND `server_role`.role_id = `role`.id
+queryT: SELECT `meta_value` FROM `server_meta` WHERE `server_id` = 7752956 AND `user_id` = 7298183626 AND `meta_key` = 'status'
+get_var: SELECT `meta_value` FROM `server_meta` WHERE `server_id` = 7752956 AND `user_id` = 7298183626 AND `meta_key` = 'status'
+queryT: SELECT `meta_value` FROM `server_meta` WHERE `server_id` = 7752956 AND `user_id` = 7298183626 AND `meta_key` = 'status'
+get_var: SELECT `meta_value` FROM `server_meta` WHERE `server_id` = 7752956 AND `user_id` = 7298183626 AND `meta_key` = 'status'
+queryT: SELECT COUNT(*) FROM `role` 
+    INNER JOIN `server_role` ON `server_role`.`server_id` = 7752956 AND `server_role`.`role_id` = `role`.`id` AND `role`.`group_id` = 2
+    INNER JOIN `server_meta` ON `server_meta`.`server_id` = 7752956 AND `server_meta`.`user_id` = `server_role`.`user_id` AND 
+                                `server_meta`.`meta_key` = 'status' AND ( `server_meta`.`meta_value` = 'dead' OR `server_meta`.`meta_value` = 'killed')
+get_var: SELECT COUNT(*) FROM `role` 
+    INNER JOIN `server_role` ON `server_role`.`server_id` = 7752956 AND `server_role`.`role_id` = `role`.`id` AND `role`.`group_id` = 2
+    INNER JOIN `server_meta` ON `server_meta`.`server_id` = 7752956 AND `server_meta`.`user_id` = `server_role`.`user_id` AND 
+                                `server_meta`.`meta_key` = 'status' AND ( `server_meta`.`meta_value` = 'dead' OR `server_meta`.`meta_value` = 'killed')
+queryT: SELECT * FROM `server_meta` WHERE `server_id` = 7752956 AND `user_id` = 0 AND `meta_key` = 'bakreh'
+get_row: SELECT * FROM `server_meta` WHERE `server_id` = 7752956 AND `user_id` = 0 AND `meta_key` = 'bakreh'
+queryT: SELECT `server`.* FROM `server` INNER JOIN `user_game` ON `server`.`id` = `user_game`.`server_id` AND `user_game`.`user_id` = 96198161 LIMIT 1
+get_row: SELECT `server`.* FROM `server` INNER JOIN `user_game` ON `server`.`id` = `user_game`.`server_id` AND `user_game`.`user_id` = 96198161 LIMIT 1
+queryT: SELECT * FROM `server_meta` WHERE `server_id` = 7752956 AND `user_id` = 0 AND `meta_key` = 'mozakereh'
+get_row: SELECT * FROM `server_meta` WHERE `server_id` = 7752956 AND `user_id` = 0 AND `meta_key` = 'mozakereh'
+queryT: SELECT `meta_value` FROM `server_meta` WHERE `server_id` = 7752956 AND `user_id` = 96198161 AND `meta_key` = 'status'
+get_var: SELECT `meta_value` FROM `server_meta` WHERE `server_id` = 7752956 AND `user_id` = 96198161 AND `meta_key` = 'status'
+queryT: SELECT `meta_value` FROM `server_meta` WHERE `server_id` = 7752956 AND `user_id` = 96198161 AND `meta_key` = 'status'
+get_var: SELECT `meta_value` FROM `server_meta` WHERE `server_id` = 7752956 AND `user_id` = 96198161 AND `meta_key` = 'status'
+queryT: SELECT * FROM `server_meta` WHERE `server_id` = 7752956 AND `user_id` = 0 AND `meta_key` = 'bakreh'
+get_row: SELECT * FROM `server_meta` WHERE `server_id` = 7752956 AND `user_id` = 0 AND `meta_key` = 'bakreh'
+queryT: SELECT `server`.* FROM `server` INNER JOIN `user_game` ON `server`.`id` = `user_game`.`server_id` AND `user_game`.`user_id` = 96198161 LIMIT 1
+get_row: SELECT `server`.* FROM `server` INNER JOIN `user_game` ON `server`.`id` = `user_game`.`server_id` AND `user_game`.`user_id` = 96198161 LIMIT 1
+queryT: SELECT `meta_value` FROM `server_meta` WHERE `server_id` = 7752956 AND `user_id` = 96198161 AND `meta_key` = 'status'
+get_var: SELECT `meta_value` FROM `server_meta` WHERE `server_id` = 7752956 AND `user_id` = 96198161 AND `meta_key` = 'status'
+queryT: SELECT `meta_value` FROM `server_meta` WHERE `server_id` = 7752956 AND `user_id` = 96198161 AND `meta_key` = 'status'
+get_var: SELECT `meta_value` FROM `server_meta` WHERE `server_id` = 7752956 AND `user_id` = 96198161 AND `meta_key` = 'status'
+queryT: SELECT * FROM `role` WHERE `id` = 7
+get_row: SELECT * FROM `role` WHERE `id` = 7
+queryT: SELECT `meta_value` FROM `server_meta` WHERE `server_id` = 7752956 AND `user_id` = 3 AND `meta_key` = 'select'
+queryT: SELECT * FROM `user_game` WHERE `user_id` = 5912658978
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            er_game` ON `server`.`id` = `user_game`.`server_id` AND `user_game`.`user_id` = 6812639914 LIMIT 1
+get_row: SELECT `server`.* FROM `server` INNER JOIN `user_game` ON `server`.`id` = `user_game`.`server_id` AND `user_game`.`user_id` = 6812639914 LIMIT 1
+queryT: SELECT `role`.* FROM `server_role` INNER JOIN `role` ON `server_role`.server_id = 7752956 AND `server_role`.user_id = 96198161 AND `server_role`.role_id = `role`.id
+get_row: SELECT `role`.* FROM `server_role` INNER JOIN `role` ON `server_role`.server_id = 7752956 AND `server_role`.user_id = 96198161 AND `server_role`.role_id = `role`.id
+queryT: SELECT `meta_value` FROM `user_meta` WHERE `user_id` = 96198161 AND `meta_key` = 'gender'
+get_var: SELECT `meta_value` FROM `user_meta` WHERE `user_id` = 96198161 AND `meta_key` = 'gender'
+queryT: SELECT `role`.* FROM `server_role` INNER JOIN `role` ON `server_role`.server_id = 7752956 AND `server_role`.user_id = 96198161 AND `server_role`.role_id = `role`.id
+get_row: SELECT `role`.* FROM `server_role` INNER JOIN `role` ON `server_role`.server_id = 7752956 AND `server_role`.user_id = 96198161 AND `server_role`.role_id = `role`.id
+queryT: SELECT `server`.* FROM `server` INNER JOIN `user_game` ON `server`.`id` = `user_game`.`server_id` AND `user_game`.`user_id` = 96198161 LIMIT 1
+get_row: SELECT `server`.* FROM `server` INNER JOIN `user_game` ON `server`.`id` = `user_game`.`server_id` AND `user_game`.`user_id` = 96198161 LIMIT 1
+queryT: SELECT `meta_value` FROM `server_meta` WHERE `server_id` = 7752956 AND `user_id` = 68 AND `meta_key` = 'eye_shown'
+get_var: SELECT `meta_value` FROM `server_meta` WHERE `server_id` = 7752956 AND `user_id` = 68 AND `meta_key` = 'eye_shown'
+queryT: SELECT `status` FROM `users` WHERE `user_id` = 1438522773
+get_var: SELECT `status` FROM `users` WHERE `user_id` = 1438522773
+queryT: SELECT * FROM `server_meta` WHERE `server_id` = 7752958 AND `user_id` = 1438522773 AND `meta_key` = 'message-sended'
+get_row: SELECT * FROM `server_meta` WHERE `server_id` = 7752958 AND `user_id` = 1438522773 AND `meta_key` = 'message-sended'
+queryT: SELECT * FROM `user_game` WHERE `user_id` = 7477133023
+get_row: SELECT * FROM `user_game` WHERE `user_id` = 7477133023
+queryT: SELECT * FROM `user_game` WHERE `user_id` = 7477133023
+get_row: SELECT * FROM `user_game` WHERE `user_id` = 7477133023
+queryT: SELECT `meta_value` FROM `server_meta` WHERE `server_id` = 7752958 AND `user_id` = 0 AND `meta_key` = 'sleep'
+get_var: SELECT `meta_value` FROM `server_meta` WHERE `server_id` = 7752958 AND `user_id` = 0 AND `meta_key` = 'sleep'
+queryT: SELECT `server`.* FROM `server` INNER JOIN `user_game` ON `server`.`id` = `user_game`.`server_id` AND `user_game`.`user_id` = 7477133023 LIMIT 1
+get_row: SELECT `server`.* FROM `server` INNER JOIN `user_game` ON `server`.`id` = `user_game`.`server_id` AND `user_game`.`user_id` = 7477133023 LIMIT 1
+queryT: SELECT * FROM `user_game` WHERE `user_id` = 7283632295
+get_row: SELECT * FROM `user_game` WHERE `user_id` = 7283632295
+queryT: SELECT * FROM `user_game` WHERE `user_id` = 7283632295
+get_row: SELECT * FROM `user_game` WHERE `user_id` = 7283632295
+queryT: SELECT `meta_value` FROM `server_meta` WHERE `server_id` = 7752956 AND `user_id` = 6197556066 AND `meta_key` = 'status'
+get_var: SELECT `meta_value` FROM `server_meta` WHERE `server_id` = 7752956 AND `user_id` = 6197556066 AND `meta_key` = 'status'
+queryT: SELECT `name` FROM `names` WHERE `server_id` = 7752956 AND `user_id` = 6219957769 LIMIT 1
+get_var: SELECT `name` FROM `names` WHERE `server_id` = 7752956 AND `user_id` = 6219957769 LIMIT 1
+queryT: SELECT `meta_value` FROM `server_meta` WHERE `server_id` = 7752956 AND `user_id` = 6219957769 AND `meta_key` = 'status'
+get_var: SELECT `meta_value` FROM `server_meta` WHERE `server_id` = 7752956 AND `user_id` = 6219957769 AND `meta_key` = 'status'
+queryT: SELECT `meta_value` FROM `server_meta` WHERE `server_id` = 7752956 AND `user_id` = 6219957769 AND `meta_key` = 'status'
+get_var: SELECT `meta_value` FROM `server_meta` WHERE `server_id` = 7752956 AND `user_id` = 6219957769 AND `meta_key` = 'status'
+queryT: SELECT `name` FROM `names` WHERE `server_id` = 7752956 AND `user_id` = 7703056370 LIMIT 1
+get_var: SELECT `name` FROM `names` WHERE `server_id` = 7752956 AND `user_id` = 7703056370 LIMIT 1
+queryT: SELECT `meta_value` FROM `server_meta` WHERE `server_id` = 7752956 AND `user_id` = 7703056370 AND `meta_key` = 'status'
+get_var: SELECT `meta_value` FROM `server_meta` WHERE `server_id` = 7752956 AND `user_id` = 7703056370 AND `meta_key` = 'status'
+queryT: SELECT `meta_value` FROM `server_meta` WHERE `server_id` = 7752956 AND `user_id` = 7703056370 AND `meta_key` = 'status'
+get_var: SELECT `meta_value` FROM `server_meta` WHERE `server_id` = 7752956 AND `user_id` = 7703056370 AND `meta_key` = 'status'
+queryT: SELECT `name` FROM `names` WHERE `server_id` = 7752956 AND `user_id` = 998244457 LIMIT 1
+get_var: SELECT `name` FROM `names` WHERE `server_id` = 7752956 AND `user_id` = 998244457 LIMIT 1
+queryT: SELECT `meta_value` FROM `server_meta` WHERE `server_id` = 7752956 AND `user_id` = 998244457 AND `meta_key` = 'status'
+get_var: SELECT `meta_value` FROM `server_meta` WHERE `server_id` = 7752956 AND `user_id` = 998244457 AND `meta_key` = 'status'
+queryT: SELECT `meta_value` FROM `server_meta` WHERE `server_id` = 7752956 AND `user_id` = 998244457 AND `meta_key` = 'status'
+get_var: SELECT `meta_value` FROM `server_meta` WHERE `server_id` = 7752956 AND `user_id` = 998244457 AND `meta_key` = 'status'
+queryT: SELECT `name` FROM `names` WHERE `server_id` = 7752956 AND `user_id` = 5464420203 LIMIT 1
+get_var: SELECT `name` FROM `names` WHERE `server_id` = 7752956 AND `user_id` = 5464420203 LIMIT 1
+queryT: SELECT `meta_value` FROM `server_meta` WHERE `server_id` = 7752956 AND `user_id` = 5464420203 AND `meta_key` = 'status'
+get_var: SELECT `meta_value` FROM `server_meta` WHERE `server_id` = 7752956 AND `user_id` = 5464420203 AND `meta_key` = 'status'
+queryT: SELECT `meta_value` FROM `server_meta` WHERE `server_id` = 7752956 AND `user_id` = 5464420203 AND `meta_key` = 'status'
+get_var: SELECT `meta_value` FROM `server_meta` WHERE `server_id` = 7752956 AND `user_id` = 5464420203 AND `meta_key` = 'status'
+queryT: SELECT `name` FROM `names` WHERE `server_id` = 7752956 AND `user_id` = 2107434165 LIMIT 1
+get_var: SELECT `name` FROM `names` WHERE `server_id` = 7752956 AND `user_id` = 2107434165 LIMIT 1
+queryT: SELECT `meta_value` FROM `server_meta` WHERE `server_id` = 7752956 AND `user_id` = 2107434165 AND `meta_key` = 'status'
+get_var: SELECT `meta_value` FROM `server_meta` WHERE `server_id` = 7752956 AND `user_id` = 2107434165 AND `meta_key` = 'status'
+queryT: SELECT `meta_value` FROM `server_meta` WHERE `server_id` = 7752956 AND `user_id` = 2107434165 AND `meta_key` = 'status'
+get_var: SELECT `meta_value` FROM `server_meta` WHERE `server_id` = 7752956 AND `user_id` = 2107434165 AND `meta_key` = 'status'
+queryT: SELECT `name` FROM `names` WHERE `server_id` = 7752956 AND `user_id` = 92439626 LIMIT 1
+get_var: SELECT `name` FROM `names` WHERE `server_id` = 7752956 AND `user_id` = 92439626 LIMIT 1
+queryT: SELECT `meta_value` FROM `server_meta` WHERE `server_id` = 7752956 AND `user_id` = 92439626 AND `meta_key` = 'status'
+get_var: SELECT `meta_value` FROM `server_meta` WHERE `server_id` = 7752956 AND `user_id` = 92439626 AND `meta_key` = 'status'
+queryT: SELECT `meta_value` FROM `server_meta` WHERE `server_id` = 7752956 AND `user_id` = 92439626 AND `meta_key` = 'status'
+get_var: SELECT `meta_value` FROM `server_meta` WHERE `server_id` = 7752956 AND `user_id` = 92439626 AND `meta_key` = 'status'
+queryT: SELECT `name` FROM `names` WHERE `server_id` = 7752956 AND `user_id` = 236321668 LIMIT 1
+get_var: SELECT `name` FROM `names` WHERE `server_id` = 7752956 AND `user_id` = 236321668 LIMIT 1
+queryT: SELECT `meta_value` FROM `server_meta` WHERE `server_id` = 7752956 AND `user_id` = 236321668 AND `meta_key` = 'status'
+get_var: SELECT `meta_value` FROM `server_meta` WHERE `server_id` = 7752956 AND `user_id` = 236321668 AND `meta_key` = 'status'
+queryT: SELECT `meta_value` FROM `server_meta` WHERE `server_id` = 7752956 AND `user_id` = 236321668 AND `meta_key` = 'status'
+get_var: SELECT `meta_value` FROM `server_meta` WHERE `server_id` = 7752956 AND `user_id` = 236321668 AND `meta_key` = 'status'
+queryT: SELECT `name` FROM `names` WHERE `server_id` = 7752956 AND `user_id` = 96198161 LIMIT 1
+get_var: SELECT `name` FROM `names` WHERE `server_id` = 7752956 AND `user_id` = 96198161 LIMIT 1
+queryT: SELECT `meta_value` FROM `server_meta` WHERE `server_id` = 7752956 AND `user_id` = 96198161 AND `meta_key` = 'status'
+get_var: SELECT `meta_value` FROM `server_meta` WHERE `server_id` = 7752956 AND `user_id` = 96198161 AND `meta_key` = 'status'
+queryT: SELECT `meta_value` FROM `server_meta` WHERE `server_id` = 7752956 AND `user_id` = 96198161 AND `meta_key` = 'status'
+get_var: SELECT `meta_value` FROM `server_meta` WHERE `server_id` = 7752956 AND `user_id` = 96198161 AND `meta_key` = 'status'
+queryT: SELECT `name` FROM `names` WHERE `server_id` = 7752956 AND `user_id` = 7050075097 LIMIT 1
+get_var: SELECT `name` FROM `names` WHERE `server_id` = 7752956 AND `user_id` = 7050075097 LIMIT 1
+queryT: SELECT `meta_value` FROM `server_meta` WHERE `server_id` = 7752956 AND `user_id` = 7050075097 AND `meta_key` = 'status'
+get_var: SELECT `meta_value` FROM `server_meta` WHERE `server_id` = 7752956 AND `user_id` = 7050075097 AND `meta_key` = 'status'
+queryT: SELECT `meta_value` FROM `server_meta` WHERE `server_id` = 7752956 AND `user_id` = 7050075097 AND `meta_key` = 'status'
+get_var: SELECT `meta_value` FROM `server_meta` WHERE `server_id` = 7752956 AND `user_id` = 7050075097 AND `meta_key` = 'status'
+queryT: SELECT `name` FROM `names` WHERE `server_id` = 7752956 AND `user_id` = 7298183626 LIMIT 1
+get_var: SELECT `name` FROM `names` WHERE `server_id` = 7752956 AND `user_id` = 7298183626 LIMIT 1
+queryT: SELECT `meta_value` FROM `server_meta` WHERE `server_id` = 7752956 AND `user_id` = 7298183626 AND `meta_key` = 'status'
+get_var: SELECT `meta_value` FROM `server_meta` WHERE `server_id` = 7752956 AND `user_id` = 7298183626 AND `meta_key` = 'status'
+queryT: SELECT `meta_value` FROM `server_meta` WHERE `server_id` = 7752956 AND `user_id` = 7298183626 AND `meta_key` = 'status'
+get_var: SELECT `meta_value` FROM `server_meta` WHERE `server_id` = 7752956 AND `user_id` = 7298183626 AND `meta_key` = 'status'
+queryT: SELECT `meta_value` FROM `server_meta` WHERE `server_id` = 7752956 AND `user_id` = 7283632295 AND `meta_key` = 'status'
+get_var: SELECT `meta_value` FROM `server_meta` WHERE `server_id` = 7752956 AND `user_id` = 7283632295 AND `meta_key` = 'status'
+queryT: SELECT `meta_value` FROM `server_meta` WHERE `server_id` = 7752956 AND `user_id` = 7283632295 AND `meta_key` = 'status'
+get_var: SELECT `meta_value` FROM `server_meta` WHERE `server_id` = 7752956 AND `user_id` = 7283632295 AND `meta_key` = 'status'
+queryT: SELECT `meta_value` FROM `server_meta` WHERE `server_id` = 7752956 AND `user_id` = 7283632295 AND `meta_key` = 'status'
+get_var: SELECT `meta_value` FROM `server_meta` WHERE `server_id` = 7752956 AND `user_id` = 7283632295 AND `meta_key` = 'status'
+queryT: SELECT `meta_value` FROM `server_meta` WHERE `server_id` = 7752956 AND `user_id` = 7283632295 AND `meta_key` = 'status'
+get_var: SELECT `meta_value` FROM `server_meta` WHERE `server_id` = 7752956 AND `user_id` = 7283632295 AND `meta_key` = 'status'
+queryT: SELECT * FROM `user_game` WHERE `user_id` = 7576970362
+get_row: SELECT * FROM `user_game` WHERE `user_id` = 7576970362
+queryT: SELECT * FROM `user_game` WHERE `user_id` = 7576970362
+get_row: SELECT * FROM `user_game` WHERE `user_id` = 7576970362
+queryT: SELECT `meta_value` FROM `server_meta` WHERE `server_id` = 7752958 AND `user_id` = 0 AND `meta_key` = 'sleep'
+get_var: SELECT `meta_value` FROM `server_meta` WHERE `server_id` = 7752958 AND `user_id` = 0 AND `meta_key` = 'sleep'
+queryT: SELECT `server`.* FROM `server` INNER JOIN `user_game` ON `server`.`id` = `user_game`.`server_id` AND `user_game`.`user_id` = 7576970362 LIMIT 1
+get_row: SELECT `server`.* FROM `server` INNER JOIN `user_game` ON `server`.`id` = `user_game`.`server_id` AND `user_game`.`user_id` = 7576970362 LIMIT 1
+queryT: SELECT * FROM `user_game` WHERE `user_id` = 1438522773
+get_row: SELECT * FROM `user_game` WHERE `user_id` = 1438522773
+queryT: SELECT * FROM `user_game` WHERE `user_id` = 1438522773
+get_row: SELECT * FROM `user_game` WHERE `user_id` = 1438522773
+queryT: SELECT * FROM `server_meta` WHERE `server_id` = 7752958 AND `user_id` = 1438522773 AND `meta_key` = 'message-sended'
+get_row: SELECT * FROM `server_meta` WHERE `server_id` = 7752958 AND `user_id` = 1438522773 AND `meta_key` = 'message-sended'
+queryT: SELECT * FROM `server_role` WHERE `role_id` = 7 AND `server_id` = 7752958
+get_row: SELECT * FROM `server_role` WHERE `role_id` = 7 AND `server_id` = 7752958
+queryT: SELECT * FROM `server_role` WHERE `user_id` = 1438522773 AND `server_id` = 7752958
+get_row: SELECT * FROM `server_role` WHERE `user_id` = 1438522773 AND `server_id` = 7752958
+queryT: SELECT `name_id` FROM `user_name` WHERE `server_id` = 7752958 AND `user_id` = 1438522773 ORDER BY `id` DESC LIMIT 1
+get_var: SELECT `name_id` FROM `user_name` WHERE `server_id` = 7752958 AND `user_id` = 1438522773 ORDER BY `id` DESC LIMIT 1
+queryT: SELECT `name` FROM `names` WHERE `server_id` = 7752958 AND `user_id` = 1438522773 LIMIT 1
+get_var: SELECT `name` FROM `names` WHERE `server_id` = 7752958 AND `user_id` = 1438522773 LIMIT 1
+queryT: SELECT `server`.* FROM `server` INNER JOIN `user_game` ON `server`.`id` = `user_game`.`server_id` AND `user_game`.`user_id` = 1438522773 LIMIT 1
+get_row: SELECT `server`.* FROM `server` INNER JOIN `user_game` ON `server`.`id` = `user_game`.`server_id` AND `user_game`.`user_id` = 1438522773 LIMIT 1
+queryT: SELECT * FROM `user_game` WHERE `user_id` = 1438522773
+get_row: SELECT * FROM `user_game` WHERE `user_id` = 1438522773
+queryT: SELECT `role`.* FROM `server_role` INNER JOIN `role` ON `server_role`.server_id = 7752956 AND `server_role`.user_id = 7283632295 AND `server_role`.role_id = `role`.id
+get_row: SELECT `role`.* FROM `server_role` INNER JOIN `role` ON `server_role`.server_id = 7752956 AND `server_role`.user_id = 7283632295 AND `server_role`.role_id = `role`.id
+queryT: SELECT `meta_value` FROM `user_meta` WHERE `user_id` = 7283632295 AND `meta_key` = 'gender'
+get_var: SELECT `meta_value` FROM `user_meta` WHERE `user_id` = 7283632295 AND `meta_key` = 'gender'
+queryT: SELECT `role`.* FROM `server_role` INNER JOIN `role` ON `server_role`.server_id = 7752956 AND `server_role`.user_id = 7283632295 AND `server_role`.role_id = `role`.id
+get_row: SELECT `role`.* FROM `server_role` INNER JOIN `role` ON `server_role`.server_id = 7752956 AND `server_role`.user_id = 7283632295 AND `server_role`.role_id = `role`.id
+queryT: SELECT `server`.* FROM `server` INNER JOIN `user_game` ON `server`.`id` = `user_game`.`server_id` AND `user_game`.`user_id` = 7283632295 LIMIT 1
+get_row: SELECT `server`.* FROM `server` INNER JOIN `user_game` ON `server`.`id` = `user_game`.`server_id` AND `user_game`.`user_id` = 7283632295 LIMIT 1
+queryT: SELECT `meta_value` FROM `server_meta` WHERE `server_id` = 7752956 AND `user_id` = 68 AND `meta_key` = 'eye_shown'
+get_var: SELECT `meta_value` FROM `server_meta` WHERE `server_id` = 7752956 AND `user_id` = 68 AND `meta_key` = 'eye_shown'
+queryT: SELECT * FROM `user_game` WHERE `user_id` = 7596199779
+get_row: SELECT * FROM `user_game` WHERE `user_id` = 7596199779
+queryT: SELECT * FROM `user_game` WHERE `user_id` = 7596199779
+get_row: SELECT * FROM `user_game` WHERE `user_id` = 7596199779
+queryT: SELECT `meta_value` FROM `server_meta` WHERE `server_id` = 7752958 AND `user_id` = 0 AND `meta_key` = 'sleep'
+get_var: SELECT `meta_value` FROM `server_meta` WHERE `server_id` = 7752958 AND `user_id` = 0 AND `meta_key` = 'sleep'
+queryT: SELECT `server`.* FROM `server` INNER JOIN `user_game` ON `server`.`id` = `user_game`.`server_id` AND `user_game`.`user_id` = 7596199779 LIMIT 1
+get_row: SELECT `server`.* FROM `server` INNER JOIN `user_game` ON `server`.`id` = `user_game`.`server_id` AND `user_game`.`user_id` = 7596199779 LIMIT 1
+queryT: SELECT * FROM `users` WHERE `user_id` = 1438522773
+get_row: SELECT * FROM `users` WHERE `user_id` = 1438522773
+queryT: SELECT * FROM `server_meta` WHERE `server_id` = 7752958 AND `user_id` = 1438522773 AND `meta_key` = 'friend'
+get_row: SELECT * FROM `server_meta` WHERE `server_id` = 7752958 AND `user_id` = 1438522773 AND `meta_key` = 'friend'
+queryT: SELECT * FROM `role` WHERE `id` = 7
+get_row: SELECT * FROM `role` WHERE `id` = 7
+queryT: SELECT `name_id` FROM `user_name` WHERE `server_id` = 7752958 AND `user_id` = 5482885533 ORDER BY `id` DESC LIMIT 1
+get_var: SELECT `name_id` FROM `user_name` WHERE `server_id` = 7752958 AND `user_id` = 5482885533 ORDER BY `id` DESC LIMIT 1
+queryT: SELECT `name` FROM `names` WHERE `server_id` = 7752958 AND `user_id` = 5482885533 LIMIT 1
+get_var: SELECT `name` FROM `names` WHERE `server_id` = 7752958 AND `user_id` = 5482885533 LIMIT 1
+queryT: SELECT `server`.* FROM `server` INNER JOIN `user_game` ON `server`.`id` = `user_game`.`server_id` AND `user_game`.`user_id` = 5482885533 LIMIT 1
+get_row: SELECT `server`.* FROM `server` INNER JOIN `user_game` ON `server`.`id` = `user_game`.`server_id` AND `user_game`.`user_id` = 5482885533 LIMIT 1
+queryT: SELECT * FROM `user_game` WHERE `user_id` = 5482885533
+get_row: SELECT * FROM `user_game` WHERE `user_id` = 5482885533
+queryT: SELECT * FROM `user_game` WHERE `user_id` = 5912658978
+get_row: SELECT * FROM `user_game` WHERE `user_id` = 5912658978
+queryT: SELECT * FROM `user_game` WHERE `user_id` = 5912658978
+get_row: SELECT * FROM `user_game` WHERE `user_id` = 5912658978
+queryT: SELECT * FROM `server` WHERE `id` = 7752958
+get_row: SELECT * FROM `server` WHERE `id` = 7752958
+queryT: SELECT * FROM `user_game` WHERE `user_id` = 7050075097
+get_row: SELECT * FROM `user_game` WHERE `user_id` = 7050075097
+queryT: SELECT * FROM `user_game` WHERE `user_id` = 7050075097
+get_row: SELECT * FROM `user_game` WHERE `user_id` = 7050075097
+queryT: SELECT `meta_value` FROM `server_meta` WHERE `server_id` = 7752956 AND `user_id` = 6197556066 AND `meta_key` = 'status'
+get_var: SELECT `meta_value` FROM `server_meta` WHERE `server_id` = 7752956 AND `user_id` = 6197556066 AND `meta_key` = 'status'
+queryT: SELECT `name` FROM `names` WHERE `server_id` = 7752956 AND `user_id` = 6219957769 LIMIT 1
+get_var: SELECT `name` FROM `names` WHERE `server_id` = 7752956 AND `user_id` = 6219957769 LIMIT 1
+queryT: SELECT `meta_value` FROM `server_meta` WHERE `server_id` = 7752956 AND `user_id` = 6219957769 AND `meta_key` = 'status'
+get_var: SELECT `meta_value` FROM `server_meta` WHERE `server_id` = 7752956 AND `user_id` = 6219957769 AND `meta_key` = 'status'
+queryT: SELECT `meta_value` FROM `server_meta` WHERE `server_id` = 7752956 AND `user_id` = 6219957769 AND `meta_key` = 'status'
+get_var: SELECT `meta_value` FROM `server_meta` WHERE `server_id` = 7752956 AND `user_id` = 6219957769 AND `meta_key` = 'status'
+queryT: SELECT `name` FROM `names` WHERE `server_id` = 7752956 AND `user_id` = 7703056370 LIMIT 1
+get_var: SELECT `name` FROM `names` WHERE `server_id` = 7752956 AND `user_id` = 7703056370 LIMIT 1
+queryT: SELECT `meta_value` FROM `server_meta` WHERE `server_id` = 7752956 AND `user_id` = 7703056370 AND `meta_key` = 'status'
+get_var: SELECT `meta_value` FROM `server_meta` WHERE `server_id` = 7752956 AND `user_id` = 7703056370 AND `meta_key` = 'status'
+queryT: SELECT `meta_value` FROM `server_meta` WHERE `server_id` = 7752956 AND `user_id` = 7703056370 AND `meta_key` = 'status'
+get_var: SELECT `meta_value` FROM `server_meta` WHERE `server_id` = 7752956 AND `user_id` = 7703056370 AND `meta_key` = 'status'
+queryT: SELECT `name` FROM `names` WHERE `server_id` = 7752956 AND `user_id` = 998244457 LIMIT 1
+get_var: SELECT `name` FROM `names` WHERE `server_id` = 7752956 AND `user_id` = 998244457 LIMIT 1
+queryT: SELECT `meta_value` FROM `server_meta` WHERE `server_id` = 7752956 AND `user_id` = 998244457 AND `meta_key` = 'status'
+get_var: SELECT `meta_value` FROM `server_meta` WHERE `server_id` = 7752956 AND `user_id` = 998244457 AND `meta_key` = 'status'
+queryT: SELECT `meta_value` FROM `server_meta` WHERE `server_id` = 7752956 AND `user_id` = 998244457 AND `meta_key` = 'status'
+get_var: SELECT `meta_value` FROM `server_meta` WHERE `server_id` = 7752956 AND `user_id` = 998244457 AND `meta_key` = 'status'
+queryT: SELECT `name` FROM `names` WHERE `server_id` = 7752956 AND `user_id` = 5464420203 LIMIT 1
+get_var: SELECT `name` FROM `names` WHERE `server_id` = 7752956 AND `user_id` = 5464420203 LIMIT 1
+queryT: SELECT `meta_value` FROM `server_meta` WHERE `server_id` = 7752956 AND `user_id` = 5464420203 AND `meta_key` = 'status'
+get_var: SELECT `meta_value` FROM `server_meta` WHERE `server_id` = 7752956 AND `user_id` = 5464420203 AND `meta_key` = 'status'
+queryT: SELECT `meta_value` FROM `server_meta` WHERE `server_id` = 7752956 AND `user_id` = 5464420203 AND `meta_key` = 'status'
+get_var: SELECT `meta_value` FROM `server_meta` WHERE `server_id` = 7752956 AND `user_id` = 5464420203 AND `meta_key` = 'status'
+queryT: SELECT `name` FROM `names` WHERE `server_id` = 7752956 AND `user_id` = 2107434165 LIMIT 1
+get_var: SELECT `name` FROM `names` WHERE `server_id` = 7752956 AND `user_id` = 2107434165 LIMIT 1
+queryT: SELECT `meta_value` FROM `server_meta` WHERE `server_id` = 7752956 AND `user_id` = 2107434165 AND `meta_key` = 'status'
+get_var: SELECT `meta_value` FROM `server_meta` WHERE `server_id` = 7752956 AND `user_id` = 2107434165 AND `meta_key` = 'status'
+queryT: SELECT `meta_value` FROM `server_meta` WHERE `server_id` = 7752956 AND `user_id` = 2107434165 AND `meta_key` = 'status'
+get_var: SELECT `meta_value` FROM `server_meta` WHERE `server_id` = 7752956 AND `user_id` = 2107434165 AND `meta_key` = 'status'
+queryT: SELECT `name` FROM `names` WHERE `server_id` = 7752956 AND `user_id` = 92439626 LIMIT 1
+get_var: SELECT `name` FROM `names` WHERE `server_id` = 7752956 AND `user_id` = 92439626 LIMIT 1
+queryT: SELECT `meta_value` FROM `server_meta` WHERE `server_id` = 7752956 AND `user_id` = 92439626 AND `meta_key` = 'status'
+get_var: SELECT `meta_value` FROM `server_meta` WHERE `server_id` = 7752956 AND `user_id` = 92439626 AND `meta_key` = 'status'
+queryT: SELECT `meta_value` FROM `server_meta` WHERE `server_id` = 7752956 AND `user_id` = 92439626 AND `meta_key` = 'status'
+get_var: SELECT `meta_value` FROM `server_meta` WHERE `server_id` = 7752956 AND `user_id` = 92439626 AND `meta_key` = 'status'
+queryT: SELECT `name` FROM `names` WHERE `server_id` = 7752956 AND `user_id` = 236321668 LIMIT 1
+get_var: SELECT `name` FROM `names` WHERE `server_id` = 7752956 AND `user_id` = 236321668 LIMIT 1
+queryT: SELECT `meta_value` FROM `server_meta` WHERE `server_id` = 7752956 AND `user_id` = 236321668 AND `meta_key` = 'status'
+get_var: SELECT `meta_value` FROM `server_meta` WHERE `server_id` = 7752956 AND `user_id` = 236321668 AND `meta_key` = 'status'
+queryT: SELECT `meta_value` FROM `server_meta` WHERE `server_id` = 7752956 AND `user_id` = 236321668 AND `meta_key` = 'status'
+get_var: SELECT `meta_value` FROM `server_meta` WHERE `server_id` = 7752956 AND `user_id` = 236321668 AND `meta_key` = 'status'
+queryT: SELECT `name` FROM `names` WHERE `server_id` = 7752956 AND `user_id` = 96198161 LIMIT 1
+get_var: SELECT `name` FROM `names` WHERE `server_id` = 7752956 AND `user_id` = 96198161 LIMIT 1
+queryT: SELECT `meta_value` FROM `server_meta` WHERE `server_id` = 7752956 AND `user_id` = 96198161 AND `meta_key` = 'status'
+get_var: SELECT `meta_value` FROM `server_meta` WHERE `server_id` = 7752956 AND `user_id` = 96198161 AND `meta_key` = 'status'
+queryT: SELECT `meta_value` FROM `server_meta` WHERE `server_id` = 7752956 AND `user_id` = 96198161 AND `meta_key` = 'status'
+get_var: SELECT `meta_value` FROM `server_meta` WHERE `server_id` = 7752956 AND `user_id` = 96198161 AND `meta_key` = 'status'
+queryT: SELECT `name` FROM `names` WHERE `server_id` = 7752956 AND `user_id` = 7283632295 LIMIT 1
+get_row: SELECT * FROM `users` WHERE `user_id` = 5482885533
+queryT: SELECT `meta_value` FROM `server_meta` WHERE `server_id` = 7752956 AND `user_id` = 7283632295 AND `meta_key` = 'status'
+get_var: SELECT `meta_value` FROM `server_meta` WHERE `server_id` = 7752956 AND `user_id` = 7283632295 AND `meta_key` = 'status'
+queryT: SELECT * FROM `server_meta` WHERE `server_id` = 7752958 AND `user_id` = 5482885533 AND `meta_key` = 'status'
+get_row: SELECT * FROM `server_meta` WHERE `server_id` = 7752958 AND `user_id` = 5482885533 AND `meta_key` = 'status'
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           = 7752956 AND `user_id` = 7703056370 LIMIT 1
+get_row: SELECT * FROM `user_name` WHERE `server_id` = 7752956 AND `user_id` = 7703056370 LIMIT 1
+queryT: SELECT * FROM `user_game` WHERE `user_id` = 7703056370
+get_row: SELECT * FROM `user_game` WHERE `user_id` = 7703056370
+queryT: SELECT * FROM `user_name` WHERE `server_id` = 7752956 AND `user_id` = 998244457 LIMIT 1
+get_row: SELECT * FROM `user_name` WHERE `server_id` = 7752956 AND `user_id` = 998244457 LIMIT 1
+queryT: SELECT * FROM `user_game` WHERE `user_id` = 998244457
+get_row: SELECT * FROM `user_game` WHERE `user_id` = 998244457
+queryT: SELECT * FROM `user_name` WHERE `server_id` = 7752956 AND `user_id` = 5464420203 LIMIT 1
+get_row: SELECT * FROM `user_name` WHERE `server_id` = 7752956 AND `user_id` = 5464420203 LIMIT 1
+queryT: SELECT * FROM `user_game` WHERE `user_id` = 5464420203
+get_row: SELECT * FROM `user_game` WHERE `user_id` = 5464420203
+queryT: SELECT * FROM `user_name` WHERE `server_id` = 7752956 AND `user_id` = 2107434165 LIMIT 1
+get_row: SELECT * FROM `user_name` WHERE `server_id` = 7752956 AND `user_id` = 2107434165 LIMIT 1
+queryT: SELECT * FROM `user_game` WHERE `user_id` = 2107434165
+get_row: SELECT * FROM `user_game` WHERE `user_id` = 2107434165
+queryT: SELECT * FROM `user_name` WHERE `server_id` = 7752956 AND `user_id` = 92439626 LIMIT 1752956 AND `user_id` = 92439626 LIMIT 1

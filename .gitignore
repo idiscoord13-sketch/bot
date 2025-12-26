@@ -1,0 +1,21 @@
+﻿
+# فایل‌های حجیم و زائد
+
+vendor/
+
+node_modules/
+
+files/
+
+temp/
+
+*.zip
+
+*.rar
+
+error_log*
+
+
+
+
+

@@ -1,0 +1,2 @@
+{"update_id":178559314,
+"message":{"message_id":77725969,"from":{"id":667596900,"is_bot":false,"first_name":"Reza","username":"rezamizbani","language_code":"en"},"chat":{"id":667596900,"first_name":"Reza","username":"rezamizbani","type":"private"},"date":1742955188,"text":"/start","entities":[{"offset":0,"length":6,"type":"bot_command"}]}}

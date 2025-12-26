@@ -1,0 +1,67 @@
+from_user_id : 7387333416 
+
+to_user_id : 7226674944 
+
+db_name : Tables_in_iranimaf_main 
+
+table : bans 
+
+table : challenge 
+
+table : chat 
+
+table : coupon 
+
+table : friends 
+
+table : hadith 
+
+table : last_game_user 
+
+table : log 
+
+table : media 
+
+table : names 
+
+table : orders 
+
+table : points 
+
+table : point_daily 
+
+table : point_log 
+
+table : private_chat 
+
+table : report 
+
+table : request_friends 
+
+table : server 
+
+table : server_meta 
+
+table : server_role 
+
+table : subscriptions 
+
+table : token 
+
+table : users 
+
+table : users_names 
+
+table : user_coupon 
+
+table : user_game 
+
+table : user_league 
+
+table : user_meta 
+
+table : user_name 
+
+table : vip_league 
+
+table : votes 
